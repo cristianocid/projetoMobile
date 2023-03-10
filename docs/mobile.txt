@@ -15,3 +15,16 @@ Software:
 - Dispositivo Fisico - o primeiro a conectar é o emulator5552
 - Remoto (Emulador / Dispositivos) --> device farm
     Saucelabs / Browserstack / Perfecto
+
+Exercicio de  Reforço: Calculadora do Google
+Requisitos / Etapas
+1 - IDE: Vscode
+2 - Gerenciador de pacotes: npm
+3 - O ambiente de automação de testes Mobile
+3.a - local: emulador(imagem do Android desejado) ou celular via cabo, SDK para a versão do Android,
+      instalar o Appium Desktop, e configurar as variaveis de ambiente
+3.b - uma conta ativa no Saucelabs ou outro provedor de testes em nuvem 
+4 - o instalador do app que sera alvo dos testes (apk / ipa) --> fonte: www.apkpure.com
+5 - no aparelho ou emulador, local ou na nuvem, você precisa baixar e instalar Apk Info
+6 - usando o Apk Info, vamos descobrir o appPackage e o appActivity do nosso app alvo
+7 - inspecionar os elementos do app usando o Appium Inspector

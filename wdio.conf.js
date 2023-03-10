@@ -43,6 +43,8 @@ exports.config = {
     ],
     // Patterns to exclude.
     exclude: [
+        './features/**/login.feature',
+        './features/**/selecionarProduto.feature'
         // 'path/to/excluded/files'
     ],
     //
@@ -74,12 +76,12 @@ exports.config = {
         "appium:appiumVersion":"1.22.0",
         "appium:deviceName":"Samsung Galaxy S9 FHD GoogleAPI Emulator",
         "appium:deviceOrientation":"portrait",
-        "appium:app":"storage:filename=mda-1.0.16-19.apk",
-        "appium:appPackage":"com.saucelabs.mydemoapp.android",
-        "appium:appActivity":"com.saucelabs.mydemoapp.android.view.activities.SplashActivity",
+        "appium:app":"storage:filename=Calculator_8.4 (503542421)_Apkpure.apk",
+        "appium:appPackage":"com.google.android.calculator",
+        "appium:appActivity":"com.android.calculator2.Calculator",
         "appium:ensureWebviewsHavePages":true,
         "appium:nativeWebScreenshot":true,
-        "sauce:options":{"name":"Appium Aula Final"},
+        "sauce:options":{"name":"Reforco Calculcadora"},
         "appium:newCommandTimeout":3600,
         "appium:connectHardwareKeyboard":true
     }],
@@ -117,7 +119,7 @@ exports.config = {
     baseUrl: 'http://localhost',
     //
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 10000,
+    waitforTimeout: 20000,
     //
     // Default timeout in milliseconds for request
     // if browser driver or grid doesn't send response
