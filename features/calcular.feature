@@ -1,6 +1,6 @@
 Feature: Calcular o resultado com base em 2 numeros de 0 a 9
 
-    Scenario: Somar Dois numeros
+  Scenario: Somar Dois numeros
         Given que a calculadora está aberta
         When clico no botao "4"
         And clico no botao Somar
@@ -18,4 +18,4 @@ Feature: Calcular o resultado com base em 2 numeros de 0 a 9
 
     Examples:
       | num1 | num2 | resultado |
-      |   7  |   8  |     15    |
+      |   "7"  |   "8"  |     "15"    |
